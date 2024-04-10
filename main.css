@@ -72,6 +72,81 @@ nav ul li a:hover {
     height: auto;
 }
 
+form {
+    width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.confid {
+    margin-top: 10px;
+}
+
+.confid input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.pseudo,
+.mdp,
+.mail,
+.obj,
+.mess,
+.nivurg {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.objet label,
+.message label,
+.nivurg label {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    form {
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 768px) {  
     header {
         text-align: center;
