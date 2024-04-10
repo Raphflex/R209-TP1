@@ -141,6 +141,11 @@ button[type="submit"]:hover {
     margin-top: 10px;
 }
 
+::placeholder{
+    color: #999; 
+}
+
+
 @media screen and (max-width: 480px) {
     form {
         width: 90%;
